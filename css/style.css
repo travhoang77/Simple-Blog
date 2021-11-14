@@ -1,0 +1,41 @@
+.blue-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.blue-table td,
+.blue-table th {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+}
+
+.blue-table tr.header:hover {
+  cursor: default;
+}
+
+.blue-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.blue-table th {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-align: left;
+  background-color: #cdebf9;
+  color: black;
+}
+
+.card {
+  border: 1px solid #ddd;
+}
+
+.post-title {
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #cdebf9;
+}
+
+.post-body {
+  min-height: 7rem;
+}
